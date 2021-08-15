@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.banar-section{
+    height: 100px;
+    background-color: #22b14c;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+.banar-image{
+    width: 30%;
+    padding: 10px;
+}
+.menu-section{
+    width: 70%;
+}
+.banar-section img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+}
+.menu-section ul{
+    border: 2px solid black;
+    padding: 15px 10px 15px 5px;
+    margin-right: 20px;
+}
+.menu-section ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    background-color: #fff;
+    transition: .2s;
+}
+.menu-section ul li:hover{
+    background-color: #F00;
+    color: #fff;
+}
+.sidebar-left ul li:hover{
+    background-color: #F00;
+    transition: 0.2s;
+}
+.sidebar-left ul li a:hover{
+    background-color: #F00;
+    color: #fff;
+    transition: 0.2s;
+}
+.menu-section ul li a:hover{
+    color: #fff;
+}
+.container{
+    height: 350px;
+    display: flex;
+    margin: 10px 0px;
+}
+.sidebar-left{
+    width: 30%;
+    background-color: #b97a57;
+}
+.sidebar-right{
+    width: 70%;
+    background-color: #fff200;
+    margin-left:20px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+.sidebar-menu-items{
+    display: flex;
+    flex-direction: column;   
+}
+.sidebar-menu-items li{
+    list-style: none;
+    display: inline;
+    background-color: #fff;
+    line-height: 30px;
+    text-align: center;
+    margin: 5px 2px;
+}
+.sidebar-menu-items li:nth-child(1){
+    margin-top: 10px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background-color: #fff; */
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+input[type=text],input[type=number],input[type=email]{
+    padding: 5px;
+    width: 100%;
+}
+.form-control label{
+    width: 100px;
+}
+
+.footer{
+    height: 30px;
+    background-color: #7092be;
+}
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none !important;
+}
+
+.offers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.offers a{
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+.offers a:hover{
+    background-color: tomato;
+    color: #fff;
+}
+
+/* Buttons */
+.btn-success{
+    padding: 10px 35px;
+    border-radius: 0px;
+    background-color: tomato;
+    color: #fff;
+    border-color:rgba(255, 255, 255,0);
+    cursor: pointer;
+}
+.btn-success:hover{
+    background-color: #ccc;
+    color: #000;
+    
+}
